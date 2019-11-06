@@ -10,7 +10,7 @@ const useDarkMode = () => {
     } else {
       document.querySelector("body").classList.remove("dark-mode");
     }
-  }, [storedValue]);
+  }, [darkMode]);
   return [darkMode, setDarkMode];
 };
 
